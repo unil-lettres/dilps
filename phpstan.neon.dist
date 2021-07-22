@@ -16,7 +16,6 @@ parameters:
         - '~^Call to an undefined method Application\\Repository\\.*Repository::find(One)?By.*\(\)\.$~'
         - '~^Call to an undefined method Application\\Repository\\AbstractRepository\<Application\\Model\\User\>::(getOneByEmail|getOneById)\(\)\.$~'
         - '~^Property .* does not accept Application\\Repository\\AbstractRepository\<Application\\Model\\.*\>\.$~'
-        - '~^Call to an undefined method Doctrine\\DBAL\\Driver\\ResultStatement\:\:(fetchOne|fetchAssociative|fetchFirstColumn)\(\)\.$~'
         -
             message: '~^Argument of an invalid type Application\\Model\\Card supplied for foreach, only iterables are supported\.$~'
             path: server/Application/Model/Card.php
